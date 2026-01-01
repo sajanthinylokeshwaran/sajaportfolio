@@ -14,8 +14,8 @@
     --secondary-color: #64748b;
     --text-dark: #1f2937;
     --text-light: #6b7280;
-    --bg-light: #f9fafb;
-    --bg-white: #ffffff;
+    --bg-light: #18a3b6;
+    --bg-white: #27b9be;
     --border-color: #e5e7eb;
     --success-color: #10b981;
     --error-color: #ef4444;
@@ -28,8 +28,8 @@
 [data-theme="dark"] {
     --text-dark: #f3f4f6;
     --text-light: #d1d5db;
-    --bg-light: #1f2937;
-    --bg-white: #111827;
+    --bg-light: #198f9e;
+    --bg-white: #aa237d;
     --border-color: #374151;
     --primary-light: #60a5fa;
 }
@@ -189,7 +189,7 @@ img {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(255, 255, 255, 0.98);
+    background: rgba(170, 112, 141, 0.98);
     box-shadow: var(--shadow);
     z-index: 1000;
     animation: slideInDown 0.5s ease;
@@ -324,8 +324,8 @@ img {
 .hero {
     margin-top: 80px;
     padding: 100px 0;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    background: linear-gradient(135deg, #084347 0%, #0c4452 100%);
+    color: rgb(243, 242, 243);
     min-height: calc(100vh - 80px);
     display: flex;
     align-items: center;
@@ -344,8 +344,8 @@ img {
     left: 0;
     right: 0;
     bottom: 0;
-    background: radial-gradient(circle at 20% 50%, rgba(255,255,255,0.1) 0%, transparent 50%),
-                radial-gradient(circle at 80% 80%, rgba(255,255,255,0.1) 0%, transparent 50%);
+    background: radial-gradient(circle at 20% 50%, rgba(163, 156, 156, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(226, 220, 220, 0.1) 0%, transparent 50%);
     pointer-events: none;
 }
 
@@ -410,7 +410,7 @@ img {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(190, 67, 67, 0.2);
     transition: left 0.3s ease;
 }
 
@@ -420,7 +420,7 @@ img {
 
 .btn-primary {
     background: var(--primary-color);
-    color: white;
+    color: rgb(146, 25, 25);
 }
 
 .btn-primary:hover {
@@ -430,7 +430,7 @@ img {
 }
 
 .btn-secondary {
-    background: white;
+    background: rgb(138, 9, 9);
     color: var(--primary-color);
 }
 
@@ -555,7 +555,7 @@ section {
     font-size: 0.9rem;
     color: var(--text-light);
     background: var(--primary-light);
-    color: white;
+    color: rgb(62, 218, 218);
     padding: 4px 12px;
     border-radius: 20px;
     font-weight: 600;
@@ -656,7 +656,7 @@ section {
 
 .tech-tag {
     background: var(--primary-light);
-    color: white;
+    color: rgb(38, 195, 206);
     padding: 4px 12px;
     border-radius: 20px;
     font-size: 0.85rem;
@@ -757,7 +757,7 @@ section {
 
 .skill-percentage {
     background: var(--primary-color);
-    color: white;
+    color: rgb(67, 198, 207);
     padding: 4px 12px;
     border-radius: 20px;
     font-weight: 600;
@@ -867,7 +867,7 @@ section {
     width: 40px;
     height: 40px;
     background: var(--primary-color);
-    color: white;
+    color: rgb(65, 187, 177);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -961,7 +961,7 @@ section {
 /* ==================== Footer ==================== */
 .footer {
     background: var(--text-dark);
-    color: white;
+    color: rgb(28, 170, 170);
     padding: 2rem 0;
     text-align: center;
     animation: slideInUp 0.6s ease;
@@ -1112,7 +1112,7 @@ section {
                     </div>
                 </div>
                 <div>
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'%3E%3Crect fill='%23e0e7ff' width='400' height='400'/%3E%3Ccircle cx='200' cy='200' r='120' fill='%234f46e5'/%3E%3Ctext x='200' y='220' text-anchor='middle' font-size='80' fill='%23ffffff' font-family='Arial'%3E👨%3C/text%3E%3C/svg%3E" alt="Profile" class="profile-img">
+                    <img src="profile.tmp" alt="Profile" class="profile-img">
                 </div>
             </div>
         </div>
@@ -1132,7 +1132,7 @@ section {
                     </div>
                     <div class="info-item">
                         <strong>Phone:</strong>
-                        <a href="tel:+940761652222/a>
+                        <a href="tel:+940761652222">+0761652222</a>
                     </div>
                     <div class="info-item">
                         <strong>Location:</strong>
@@ -1140,7 +1140,7 @@ section {
                     </div>
                     <div class="info-item">
                         <strong>University:</strong>
-                        <p>SLIIT / Northern Uni</p>
+                        <p>gampaha wicramarachchi university of indigenous medicine</p>
                     </div>
                     <div class="info-item">
                         <strong>Languages:</strong>
@@ -1163,11 +1163,11 @@ section {
                 <!-- Project 1 -->
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'%3E%3Crect fill='%233b82f6' width='400' height='250'/%3E%3Crect x='50' y='50' width='300' height='150' fill='%2360a5fa' rx='10'/%3E%3Ctext x='200' y='135' text-anchor='middle' font-size='40' fill='%23ffffff' font-family='Arial'%3E%26%2358704%3B Shop%3C/text%3E%3C/svg%3E" alt="E-Commerce Project">
+                        <img src="download.jpg" alt="E-Commerce Project">
                     </div>
                     <div class="project-info">
-                        <h3>E-Commerce Platform</h3>
-                        <p>A fully functional e-commerce website with product listing, shopping cart, and secure checkout.</p>
+                        <h3>artfical intelligen in robortics webside</h3>
+                        <p>A simple website project that explains how ai is used in robots. it shows how robots can think, learn,and make decisions using artficial intelligence. this project helps students understand basic ai and robotics concepts in an easy way.</p>
                         <div class="tech-stack">
                             <span class="tech-tag">HTML5</span>
                             <span class="tech-tag">CSS3</span>
@@ -1187,11 +1187,11 @@ section {
                 <!-- Project 2 -->
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%2360a5fa;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%232563eb;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23grad)' width='400' height='250'/%3E%3Ccircle cx='200' cy='125' r='60' fill='%23fbbf24'/%3E%3Ctext x='200' y='135' text-anchor='middle' font-size='50' fill='%23ffffff'%3E%E2%98%80%EF%B8%8F%3C/text%3E%3C/svg%3E" alt="Weather Project">
+                        <img src="emg project image.png" alt="Weather Project">
                     </div>
                     <div class="project-info">
-                        <h3>Weather Application</h3>
-                        <p>Real-time weather app with beautiful UI showing forecasts and weather conditions.</p>
+                        <h3>emg signal measurement system </h3>
+                        <p>this project is a real emg circuit used to dtect muscle activity. it measures electrical signals from muscles and displays them for analysis. the project helps students understand basic EMGsignal acquistion.</p>
                         <div class="tech-stack">
                             <span class="tech-tag">React</span>
                             <span class="tech-tag">API</span>
@@ -1211,11 +1211,11 @@ section {
                 <!-- Project 3 -->
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'%3E%3Crect fill='%2310b981' width='400' height='250'/%3E%3Crect x='80' y='50' width='240' height='160' fill='%2334d399' rx='10'/%3E%3Ctext x='200' y='80' text-anchor='middle' font-size='30' fill='%23ffffff'%3E%26%2310003%3B Task 1%3C/text%3E%3Ctext x='200' y='130' text-anchor='middle' font-size='30' fill='%23ffffff'%3E%26%23010003%3B Task 2%3C/text%3E%3Ctext x='200' y='180' text-anchor='middle' font-size='30' fill='%23ffffff'%3E%26%23010003%3B Task 3%3C/text%3E%3C/svg%3E" alt="Task Manager Project">
+                        <img src="project3.jpeg" alt="Task Manager Project">
                     </div>
                     <div class="project-info">
-                        <h3>Task Management System</h3>
-                        <p>Collaborative task manager with drag-and-drop, real-time updates, and local storage.</p>
+                        <h3> mypersonal portfolio</h3>
+                        <p>this is my personal portfolio created to show my education, skills,and projects as a biomedical technology student.</p>
                         <div class="tech-stack">
                             <span class="tech-tag">JavaScript</span>
                             <span class="tech-tag">LocalStorage</span>
@@ -1359,6 +1359,16 @@ section {
                         <div class="progress-fill" style="width: 75%"></div>
                     </div>
                 </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">probleam solving</span>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">time management</span>
+                        <span class="skill-percentage">90%pan>
+                    </div>
             </div>
         </div>
     </section>
@@ -1374,14 +1384,14 @@ section {
                         <i class="fas fa-envelope"></i>
                         <div>
                             <p>Email</p>
-                            <a href="mailto:your.email@example.com">your.email@example.com</a>
+                            <a href="sajanthinylokeshwaran@gmail.com">sajanthinylokeshwaran@gmail.com</a>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-phone"></i>
                         <div>
                             <p>Phone</p>
-                            <a href="tel:+94XXXXXXXXXX">+94-XX-XXX-XXXX</a>
+                            <a href="tel:+940761652222">0761652222</a>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -1394,16 +1404,16 @@ section {
                     <div class="social-links">
                         <h4>Follow Me</h4>
                         <div class="social-icons">
-                            <a href="https://github.com" target="_blank" title="GitHub">
+                            <a href="https://github.com/account"target="blank"title="linkdin">
                                 <i class="fab fa-github"></i>
                             </a>
                             <a href="https://linkedin.com" target="_blank" title="LinkedIn">
                                 <i class="fab fa-linkedin"></i>
                             </a>
-                            <a href="https://twitter.com" target="_blank" title="Twitter">
+                            <a href="https://www.facebook.com/share/1C3FYB6EJy/"target="_blank"title="facebook">
                                 <i class="fab fa-twitter"></i>
                             </a>
-                            <a href="https://instagram.com" target="_blank" title="Instagram">
+                            <a href="https://www.instagram.com/moon_saja_?igsh=MXkyYzFiNno3MndncQ=="target="_blank"title="instagram">
                                 <i class="fab fa-instagram"></i>
                             </a>
                         </div>
@@ -1433,8 +1443,8 @@ section {
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Your Name. All rights reserved.</p>
-            <p>Designed with <i class="fas fa-heart"></i> by <span class="highlight">You</span></p>
+            <p>&copy; 2026 sajanthin s reserved.</p>
+            <p>Designed with <i class="fas fa-heart"></i> by <span class="highlight">saja</p>
         </div>
     </footer>
 
